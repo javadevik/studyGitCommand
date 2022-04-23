@@ -8,4 +8,8 @@ class MyClass {
 	public static void fixBugs() {
 		System.out.println("Fixing bugs");
 	}
+	
+	public static void methodFromUser2() {
+		System.out.println("Method from user2");
+	}
 }

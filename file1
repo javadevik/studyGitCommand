@@ -8,4 +8,12 @@ class MyClass {
 	public static void fixBugs() {
 		System.out.println("Fixing bugs");
 	}
+	
+	public statuc void firstMethodByUser1() {
+		System.out.println("First method from user1");
+	}
+	
+	public static void secondMethodByUser1() {
+		System.out.println("Second method from user1");
+	}
 }

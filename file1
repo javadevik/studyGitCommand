@@ -9,11 +9,11 @@ class MyClass {
 		System.out.println("Fixing bugs");
 	}
 	
-	public statuc void firstMethodByUser1() {
-		System.out.println("First method from user1");
+	public statuc void methodByUser1() {
+		System.out.println("Method from user1");
 	}
 	
-	public static void secondMethodByUser1() {
-		System.out.println("Second method from user1");
+	public static void methodFromUser2() {
+		System.out.println("Method from user2");
 	}
 }

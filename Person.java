@@ -46,6 +46,6 @@ class Person implements Comparable {
 	}
 	
 	public int compareTo(Person person) {
-		return age - person.getAge();
+		return id - person.getId();
 	}
 }

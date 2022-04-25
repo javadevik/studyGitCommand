@@ -1,4 +1,4 @@
-class Person {
+class Person implements Comparable {
 	private int id;
 	private String name;
 	private String lastName;
@@ -43,5 +43,9 @@ class Person {
 	
 	public void setAge(int age) {
 		this.age = age;
+	}
+	
+	public int compareTo(Person person) {
+		return id - person.getId();
 	}
 }
